@@ -143,7 +143,7 @@ main .align{
 .accueil{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(#00000075), url("ales-krivec-QnNqGoCnBg0-unsplash.png");
+    background: linear-gradient(#00000075), url("images/ales-krivec-QnNqGoCnBg0-unsplash.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -581,7 +581,7 @@ h6{
 @media (min-width: 1024px) {
 /*Accueil*/
 .accueil{
-    background: linear-gradient(#00000075), url("AccueilFDdesktop.jpg");
+    background: linear-gradient(#00000075), url("/images/AccueilFDdesktop.jpg");
     background-size: cover;
     background-position: 50%;
 }
