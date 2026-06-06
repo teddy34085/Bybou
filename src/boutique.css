@@ -1,0 +1,137 @@
+
+/*produits*/
+.produits{
+    width: 100%;
+    height: auto;
+    padding: 56px 0;
+    color: var(--colortext1);
+    position: relative;
+    margin: 32px 0;
+}
+.produits .align{
+    /* border: 1px solid red; */
+    width: 90%;
+    height: auto;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.bloob{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: #7d330298;
+    z-index: -1;
+    filter: blur(80px);
+    opacity: 0.5;
+    border-radius: 60% 40% 30% 70%;
+    top: 0;
+}
+.conteneur10{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.conteneur10 h2{
+    color: var(--color1);
+    font-size: 36px;
+    
+}
+.conteneur10 .galerie{
+      /* border: 1px solid white; */
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* padding: 10px 0; */
+}
+.article{
+   /* border: 1px solid blue; */
+    background-color: var(--colorarticle);
+    width: 100%;
+    height: auto;
+    /* max-height: 280px; */
+    text-align: center;
+    padding: 12px 4px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+#articleid{
+    row-gap: 8px;
+}
+#articleid img{
+ width: 45%;
+}
+.article img{
+    width: 65%;
+    height: auto;
+    object-fit: cover;
+}
+.articletexte h3{
+    color: var(--colortext1);
+    font-weight: 400;
+}
+.articletexte p{
+   color: var(--color1);
+   margin-top: 4px;
+}
+.article .Commander{
+    width: 70%;
+    max-height: 44px;
+    transform: none;
+}
+/*Responsive mode tablet*/
+@media (min-width: 768px) {
+    .produits {
+        margin-top: 64px;
+    }
+.produits .align{
+    /* border: 1px solid red; */
+    gap: 50px;
+}
+.conteneur10 {
+    /* border: 1px solid green; */
+    gap: 40px;
+}
+}
+@media (min-width: 1024px) {
+    .produits .align{
+    /* border: 1px solid red; */
+    max-width: 1000px;
+}
+    .conteneur10 .galerie {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+}
+@media (min-width: 1440px) {
+    .produits .align{
+    /* border: 1px solid red; */
+    max-width: 1000px;
+}
+.article {
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+    .conteneur10 .galerie {
+        /* border: 1px solid green; */
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 20px;
+    }
+}
+
+
