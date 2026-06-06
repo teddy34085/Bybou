@@ -124,7 +124,7 @@ function Main() {
                       </p>
                     </div>
                <div className="Imagesavoir_faire" >
-                  <img src="Savoir_faire.jpeg" alt="Savoir faire" className="ImageSavoirfaire"/>               
+                  <img src="/public/images/Savoir_faire.jpeg" alt="Savoir faire" className="ImageSavoirfaire"/>               
                </div>
               </div>
               <div className="conteneur2">
@@ -158,7 +158,7 @@ function Main() {
         transition={{duration: 0.6}}
         className="articlecreation" 
                >                 
-               <div className="imagecreation"><img src="creation1.jpeg" alt="creation1" className="Imagearticlecreation"/></div>
+               <div className="imagecreation"><img src="/public/images/creation1.jpeg" alt="creation1" className="Imagearticlecreation"/></div>
                   <div className="textecreation">
                     <h3>Pâtisserie & Viennoiserie</h3>
                     <p>Croissants feuilletés, tartes fruitées, éclairs fondants — des douceurs préparées chaque matin avec amour.</p>
@@ -173,7 +173,7 @@ function Main() {
             transition={{duration: 0.6}}
             className="articlecreation" 
                   >   
-                      <div className="imagecreation"><img src="creation2.jpeg" alt="creation2" className="Imagearticlecreation"/></div>
+                      <div className="imagecreation"><img src="/public/images/creation2.jpeg" alt="creation2" className="Imagearticlecreation"/></div>
                       <div className="textecreation">
                         <h3>Gâteau & art pâtissier</h3>
                         <p>Des créations sur mesure pour vos événements : anniversaires, mariages, célébrations inoubliables.</p>
@@ -189,7 +189,7 @@ function Main() {
                 transition={{duration: 0.6}}
                 className="articlecreation" 
                       >                   
-                      <div className="imagecreation"><img src="creation3.jpeg" alt="creation3" className="Imagearticlecreation"/></div>
+                      <div className="imagecreation"><img src="/public/images/creation3.jpeg" alt="creation3" className="Imagearticlecreation"/></div>
                       <div className="textecreation">
                         <h3>Pain & tradition</h3>
                         <p>Baguettes croustillantes, pains spéciaux — la tradition boulangère dans toute sa splendeur.</p>

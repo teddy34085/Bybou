@@ -6,7 +6,13 @@
 }
 @font-face {
     font-family: noot;
-    src: url(noot-regular.ttf);
+    src: url("public/Noot-Regular.ttf");
+    font-display: swap;
+    font-weight: bold;
+}
+@font-face {
+    font-family: robooto;
+    src: url("public/Roboto-Regular.ttf");
     font-display: swap;
     font-weight: bold;
 }
