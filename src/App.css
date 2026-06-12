@@ -142,7 +142,7 @@ main .align{
 
 .accueil{
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     background: linear-gradient(#00000075), url("/images/ales-krivec-QnNqGoCnBg0-unsplash.webp");
     background-size: cover;
     background-repeat: no-repeat;
@@ -579,6 +579,43 @@ h6{
 }
 /*Desktop*/
 @media (min-width: 1024px) {
+/* ✅ [MOI] Cache le bouton hamburger sur desktop */
+.Conteneurhamburger {
+    display: none;
+}
+
+/* ✅ [MOI] Nav en ligne horizontale bien espacée */
+nav {
+    display: flex !important;
+    opacity: 1 !important;
+    position: static !important;
+    background-color: transparent;
+    padding: 0;
+    align-items: center;
+}
+header .align {
+    /* border: 1px solid red; */
+    max-width: 95%;
+    padding: 18px 0;
+}
+/* ✅ [MOI] ul en row — c'est ici que les liens passent en horizontal */
+nav ul {
+    display: flex;              /* ← flex sur ul directement */
+    flex-direction: row;        /* ← liens côte à côte */
+    align-items: center;
+    gap: 2.5rem;                /* ← espace entre les liens */
+    margin-top: 0;
+}
+
+/* ✅ [MOI] Annule le margin-top des li du mobile */
+nav ul li {
+    margin-top: 0;
+}
+
+/* ✅ [MOI] Couleur des liens sur fond sombre */
+nav ul li a {
+    color: var(--color1);
+}
 /*Accueil*/
 .accueil{
     background: linear-gradient(#00000075), url("/images/AccueilFDdesktop.jpg");

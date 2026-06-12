@@ -108,7 +108,7 @@ function Main() {
         transition={{duration: 0.6}}
         className="conteneur1 " id="texte"
                >
-              <h1>{logo}<i class="fas fa-bread-slice"></i></h1>
+              <h1>{logo}<i className="fas fa-bread-slice"></i></h1>
               <p>Chez {logo}, chaque pièce est façonnée à la main, avec passion et des ingrédients soigneusement sélectionnés pour vous offrir le meilleur.</p>
               <Link to="/boutique" className="bouttonAccueil">Passer commande</Link>
           </motion.div>

@@ -91,7 +91,8 @@ function Main() {
     <>
       <main>
         <section className="produits">
-          <div className="bloob"></div>
+          <div className="bloob" id="bloob1"></div>
+          <div className="bloob" id="bloob2"></div>
             <div className="align">
               {/* === PREMIÈRE GALERIE: PAIN & TRADITION === */}
               <div className="conteneur10">
@@ -109,7 +110,7 @@ function Main() {
                 >
                   {/* === CHAQUE ARTICLE REÇOIT L'ANIMATION === */}
                   <motion.div className="article" variants={itemVariants} id="articleid">
-                    <img src="article1.png" alt="Pain ordinaire" />
+                    <img src="/images/article1.png" alt="Pain ordinaire" />
                     <div className="articletexte">
                       <h3>Pain ordinaire</h3>
                       <p>150.00xaf</p>
@@ -118,7 +119,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants}>
-                    <img src="article2.png" alt="Pain ordinaire" />
+                    <img src="/images/article2.png" alt="Pain ordinaire" />
                     <div className="articletexte">
                       <h3>Pain ordinaire</h3>
                       <p>150.00xaf</p>
@@ -127,7 +128,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants}>
-                    <img src="article3.png" alt="Pain au lait" />
+                    <img src="/images/article3.png" alt="Pain au lait" />
                     <div className="articletexte">
                       <h3>Pain au lait</h3>
                       <p>150.00xaf</p>
@@ -136,7 +137,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants}>
-                    <img src="article4.png" alt="Pain court" />
+                    <img src="/images/article4.png" alt="Pain court" />
                     <div className="articletexte">
                       <h3>Pain court</h3>
                       <p>100.00xaf</p>
@@ -145,7 +146,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants}>
-                    <img src="article5.png" alt="Baguette" />
+                    <img src="/images/article5.png" alt="Baguette" />
                     <div className="articletexte">
                       <h3>Baguette</h3>
                       <p>150.00xaf</p>
@@ -154,7 +155,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants} id="articleid">
-                    <img src="article6.png" alt="Pain moyen" />
+                    <img src="/images/article6.png" alt="Pain moyen" />
                     <div className="articletexte">
                       <h3>Pain moyen</h3>
                       <p>100.00xaf</p>
@@ -176,7 +177,7 @@ function Main() {
                   animate={isGalerie2Visible ? "visible" : "hidden"}
                 >
                   <motion.div className="article" variants={itemVariants}>
-                    <img src="article7.png" alt="Gateau chocolat" />
+                    <img src="/images/article7.png" alt="Gateau chocolat" />
                     <div className="articletexte">
                       <h3>Gateau chocolat</h3>
                       <p>7000.00xaf</p>
@@ -185,7 +186,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants} id="articleid">
-                    <img src="article8.png" alt="Gateau vanille" />
+                    <img src="/images/article8.png" alt="Gateau vanille" />
                     <div className="articletexte">
                       <h3>Gateau vanille</h3>
                       <p>7000.00xaf</p>
@@ -194,7 +195,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants} id="articleid">
-                    <img src="article9.png" alt="Gateau personnalise" />
+                    <img src="/images/article9.png" alt="Gateau personnalise" />
                     <div className="articletexte">
                       <h3>Gateau personnalise</h3>
                       <p>15000.00xaf - 25000.00xaf</p>
@@ -203,7 +204,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants} id="articleid">
-                    <img src="article10.png" alt="Gateau a etage" />
+                    <img src="/images/article10.png" alt="Gateau a etage" />
                     <div className="articletexte">
                       <h3>Gateau a etage</h3>
                       <p>10000.00xaf-25000.00xaf</p>
@@ -212,7 +213,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants}>
-                    <img src="article11.png" alt="Gateau au yaourt" />
+                    <img src="/images/article11.png" alt="Gateau au yaourt" />
                     <div className="articletexte">
                       <h3>Gateau au  yaourt</h3>
                       <p>2500.00xaf-<br/>5000.00xaf</p>
@@ -221,7 +222,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants} id="articleid">
-                    <img src="article12.png" alt="Gateau en verre" />
+                    <img src="/images/article12.png" alt="Gateau en verre" />
                     <div className="articletexte">
                       <h3>Gateau en verre</h3>
                       <p>1000.00xaf-5000.00xaf</p>
@@ -243,7 +244,7 @@ function Main() {
                   animate={isGalerie3Visible ? "visible" : "hidden"}
                 >
                   <motion.div className="article" variants={itemVariants}>
-                    <img src="article13.png" alt="Croissant" />
+                    <img src="/images/article13.png" alt="Croissant" />
                     <div className="articletexte">
                       <h3>Croissant</h3>
                       <p>500.00xaf</p>
@@ -252,7 +253,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants}>
-                    <img src="article14.png" alt="Pain chocolat" />
+                    <img src="/images/article14.png" alt="Pain chocolat" />
                     <div className="articletexte">
                       <h3>Pain chocolat</h3>
                       <p>500.00xaf</p>
@@ -261,7 +262,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants}>
-                    <img src="article15.png" alt="Nougat" />
+                    <img src="/images/article15.png" alt="Nougat" />
                     <div className="articletexte">
                       <h3>Nougat</h3>
                       <p>400.00xaf</p>
@@ -270,7 +271,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants}>
-                    <img src="article16.png" alt="Brioche" />
+                    <img src="/images/article16.png" alt="Brioche" />
                     <div className="articletexte">
                       <h3>Brioche</h3>
                       <p>700.00xaf</p>
@@ -279,7 +280,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants}>
-                    <img src="article17.png" alt="Beignets sucres" />
+                    <img src="/images/article17.png" alt="Beignets sucres" />
                     <div className="articletexte">
                       <h3>Beignets sucres</h3>
                       <p>100.00xaf</p>
@@ -288,7 +289,7 @@ function Main() {
                   </motion.div>
 
                   <motion.div className="article" variants={itemVariants}>
-                    <img src="article18.png" alt="Cake" />
+                    <img src="/images/article18.png" alt="Cake" />
                     <div className="articletexte">
                       <h3>Cake</h3>
                       <p>300.00xaf</p>
