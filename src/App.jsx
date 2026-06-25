@@ -3,7 +3,7 @@ import { motion, px } from "framer-motion";
 import './App.css' 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import Boutique from "./Boutique.jsx"
-
+import { Analytics } from "@vercel/analytics/next"
 
 
 const logo = 'ByBOO'
